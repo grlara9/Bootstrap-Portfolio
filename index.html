@@ -2,62 +2,65 @@
 <html>
     <head>
         <title>Home | Guillermo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light bg-light" style="margin-bottom: 20px;">
-                    <a href="#" class="navbar-brand">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                    <a href="index.html" class="navbar-brand" id="logo">
                         Guillermo Lara
                     </a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
                         
-                        <div class="navbar-nav ml-auto">
-                                <a href="index.html" class="nav-item nav-link active">Home</a>
-                                <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
-                                <a href="contact.html" class="nav-item nav-link">Contact</a>
-                                
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                      </li>
+                                      <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">About</a>
+                                      </li>
+                                    </ul>
+                    </div>
+                            
+            </div>
+        </nav>
+
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class= "col-md-8">
+                            <h1 class="block-header">About Me</h1>
+                                <img src="images/my-picture.jpg" alt="Guillermo Picture" width="250px" height="250px">
+                                 <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                </p>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                </p>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                </p>
                         </div>
                     </div>
-                </nav>
-
-
-
-            <div class="row">
-                <div class= col-md-5>
-                    <img src="images/my-picture.jpg" alt="Guillermo Picture" width="250px" height="250px">
-                </div>
-                <div class="col-md-7">
-                    <p>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p style="text-align: center;">Copyright &copy;</p>
-                </div>
+                    <footer class="footer">
+                            <div class="two-toned-footer-color"></div>
+                            <p class="text-muted text-muted-footer text-center">
+                              &copy; Copyright
+                            </p>
+                          </footer>
+                        
             </div>
         </div>
     </body>

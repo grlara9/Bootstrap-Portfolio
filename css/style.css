@@ -1,0 +1,13 @@
+.block-header{
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: #4aaaa5;
+    font-size: 36px;
+}
