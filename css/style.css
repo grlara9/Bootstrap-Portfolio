@@ -1,13 +1,50 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.4em;
+  
+
+    
+}
 .block-header{
-    color: #4aaaa5;
+    color: black;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: #35424a;
 }
 
 #logo{
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
-    background-color: #4aaaa5;
-    font-size: 36px;
+    font-size: 48px;
+    padding: 25px 5px 25px 5px;
+}
+ul{
+    margin-right:20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+  
+.wrapper{
+    background-color:#F0F0F0;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 15px;
+}
+
+#bc{
+    background-color:#e8491d;
+    color: #ffffff; 
+   position: absolute;
+   bottom:0;
+   width: 100%;
+   
 }
