@@ -30,21 +30,64 @@ ul{
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
-.wrapper{
-    background-color:#F0F0F0;
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 30px;
-    vertical-align: middle;
 
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
 }
-
-#bc{
+.about h1{
+    color: #F97300;
+    margin: 2em;
+}
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+.about .desc{
+    padding: 2em;
+    border-left: 4px solid #10828c;
+}
+.about .desc h3{
+    color: #10828c
+} 
+.about .desc p{
+    line-height: 1.4em;
+    color:#888;
+}
+.portfolio{
+    margin: 4em 0;
+    position: relative;
+}
+.portfolio h1{
+    color: #F97300;
+    margin: 2em;
+}
+.portfolio button{
+    border:1px  solid #F97300;
+    background:#F97300;
+    color:#fff;
+}
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 10px 0;
+    border:1px  solid black;
+}
+footer{
     background-color:#e8491d;
     color: #ffffff; 
     position: absolute;
     bottom:0;
     width: 100%;
-   
+    
 }
 
 .btn{
@@ -53,12 +96,7 @@ ul{
     border:1px solid black;
     margin: 10px 0 10px 0;
 }
-.btn:hover{
-    background-color:#5D686E;
-    color: white;
-    border:1px solid black;
-    font-weight: bold;
-}
+
 
 
 /* Small Devices, Tablets */
