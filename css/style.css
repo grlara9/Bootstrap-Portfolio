@@ -7,6 +7,7 @@ body{
     font-weight: bold;
     font-size: 16px;
     line-height: 1.4em;
+    
 }
 .block-header{
     color: black;
@@ -53,10 +54,10 @@ ul{
 }
 .about .desc{
     padding: 2em;
-    border-left: 4px solid #10828c;
+    border-left: 4px solid #35424a;
 }
 .about .desc h3{
-    color: #10828c
+    color: #35424a
 } 
 .about .desc p{
     line-height: 1.4em;
@@ -87,7 +88,7 @@ footer{
     position: absolute;
     bottom:0;
     width: 100%;
-    
+    padding-top: 10px;
 }
 
 .btn{
