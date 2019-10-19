@@ -7,7 +7,7 @@ body{
     font-weight: bold;
     font-size: 16px;
     line-height: 1.4em;
-    
+    padding-bottom: 50px;
 }
 .block-header{
     color: black;
@@ -38,7 +38,7 @@ ul{
     position: relative;
 }
 .about h1{
-    color: #F97300;
+    color: #35424a;
     margin: 2em;
 }
 .about img{
@@ -48,7 +48,7 @@ ul{
 }
 .about span{
     display: block;
-    color: #888;
+    color: #35424a;
     position: absolute;
     left: 115px;
 }
@@ -57,18 +57,19 @@ ul{
     border-left: 4px solid #35424a;
 }
 .about .desc h3{
-    color: #35424a
+    color: #35424a;
+    text-align: center;
 } 
 .about .desc p{
     line-height: 1.4em;
-    color:#888;
+    color: #35424a;
 }
 .portfolio{
     margin: 4em 0;
     position: relative;
 }
 .portfolio h1{
-    color: #F97300;
+    color:#35424a;
     margin: 2em;
 }
 .portfolio button{
@@ -88,7 +89,11 @@ footer{
     position: absolute;
     bottom:0;
     width: 100%;
-    padding-top: 10px;
+    
+
+}
+footer span .text-muted{
+    color: #35424a;
 }
 
 .btn{
@@ -97,7 +102,14 @@ footer{
     border:1px solid black;
     margin: 10px 0 10px 0;
 }
-
+@media only screen and (max-width : 990px){
+    .navbar-collapse li a { 
+        text-align: center;
+    }
+    .nav-link{
+        font-size: 25px;
+    }
+}
 
 
 /* Small Devices, Tablets */
@@ -105,9 +117,13 @@ footer{
     .navbar-collapse li a { 
         text-align: center;
     }
+    .about .desc h3{
+        text-align: center;
+    } 
     .footer-br{
         text-align: center;
     }
+
 
 }
 
@@ -115,7 +131,10 @@ footer{
 @media only screen and (max-width : 480px) {
     .navbar-collapse li a { 
         text-align: center;
-        }
+    }
+    .about .desc h3{
+        text-align: center;
+    } 
     .footer-br{
         text-align: center;
     }
@@ -127,6 +146,10 @@ footer{
         text-align: center;
         
     }
+    .about .desc h3{
+        text-align: center;
+    } 
+    
     .footer-br{
         text-align: center;
     }
