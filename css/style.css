@@ -8,6 +8,7 @@ body{
     font-size: 16px;
     line-height: 1.4em;
     padding-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 .block-header{
     color: black;
@@ -84,8 +85,8 @@ ul{
     border:1px  solid black;
 }
 footer{
-    background-color:#e8491d;
-    color: #ffffff; 
+    background-color:#C2C6C8;
+    color: black; 
     position: absolute;
     bottom:0;
     width: 100%;
@@ -96,7 +97,9 @@ footer{
 footer span .text-muted{
     color: #35424a; 
 }
-
+#medium{
+    font-size: 25px;
+}
 .btn{
     background-color: #35424a;
     color:white;
