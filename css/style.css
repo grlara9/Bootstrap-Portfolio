@@ -73,16 +73,34 @@ ul{
     color:#35424a;
     margin: 2em;
 }
-.portfolio button{
+.portfolio .demo{
     border:1px  solid #F97300;
     background:#F97300;
     color:#fff;
+    width: 47%;
+}
+.portfolio .demo:hover{
+    background-color: white;
+    color: #F97300;
+}
+.portfolio .views{
+    border:1px  solid black;
+    background:black;
+    color:#fff;
+    width: 47%;
+}
+.portfolio .views:hover{
+background-color: white;
+color: black;
 }
 .portfolio img{
     height: 15rem;
     width: 100%;
     margin: 10px 0;
     border:1px  solid black;
+}
+.black-button{
+    background-color: black;
 }
 footer{
     background-color:#C2C6C8;
